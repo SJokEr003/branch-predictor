@@ -1,0 +1,11 @@
+Buildfile: /home/btech/cs1120224/Videos/COL718/COL718_assignment1/working_directory/build.xml
+
+build:
+    [javac] /home/btech/cs1120224/Videos/COL718/COL718_assignment1/working_directory/build.xml:9: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+make-jar:
+    [mkdir] Created dir: /home/btech/cs1120224/Videos/COL718/COL718_assignment1/working_directory/jar
+      [jar] Building jar: /home/btech/cs1120224/Videos/COL718/COL718_assignment1/working_directory/jar/BranchPredictor.jar
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

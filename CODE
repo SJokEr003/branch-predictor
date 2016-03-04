@@ -1,0 +1,38 @@
+
+public class Predictor1200 extends Predictor {
+	
+	private Table tb;
+	private Register reg;
+
+	////<HERE>
+
+	public Predictor1200() {
+		tb = new Table(1<<(n+k),c);
+		reg = new Register(k);
+	}
+
+	private int getInd(long address){
+		int ind = ((int)address) & ((1<<n)-1);
+		ind <<= c;
+		ind |= reg.getInteger(0, c-1);
+		return ind;
+	}
+
+	public void Train(long address, boolean outcome, boolean predict) {
+		int ind = getInd(address);
+		int entry = tb.getInteger(ind,0,c-1);
+		if (outcome) entry++;
+		else entry--;
+		entry = Math.min(3,entry);
+		entry = Math.max(0,entry);
+		tb.setInteger(ind,0,c-1,entry);
+		// tb.setInteger(ind,0,0,(outcome ? 1 : 0 ));
+	}
+
+	public boolean predict(long address){
+		int ind = getInd(address);
+		int entry = tb.getInteger(ind,0,c-1);
+		return (entry >= (1<<(c-1)) );	
+	}
+
+}
