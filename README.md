@@ -43,6 +43,12 @@ The competition will proceed as follows. Contestants are responsible for impleme
 
 ## How to run
 
+- ant clean: to clean class files and jar files from previous builds. <br>
+- ant: to compile the java files.<br>
+- ant make-jar: to create a jar file (akin to an X86 executable). <br>
+- java -jar jar/BranchPredictor.jar traces/trace1 2400: <br>
+
+this runs the simulator with the input trace trace1. It also tells the simulator that the maximum allowed predictor size is 2400 bits. More on this later.
 
 
 
@@ -53,7 +59,7 @@ If there are some issues with the repo, please feel free to push your changes.
 
 ## Credits
 
-- Devansh Dalal ([@devanshdalal](https://github.com/devanshdalal))
+- Devansh Dalal ([@devanshdalal](https://github.com/devanshdalal)) <br>
 - Nishant Kumar ([@nish-kr](https://github.com/nish-kr))
 
 
