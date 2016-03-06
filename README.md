@@ -1,13 +1,10 @@
 # branch-predictors
 ![Logo](https://cloud.githubusercontent.com/assets/5080310/13753244/2ef820d6-ea38-11e5-8a57-c3120cdef649.jpg)
----------------
-
-
 ============================
 An attempt to implement and test some of the state of the art branch prediction techniques used in modern x86 processors.
 
 
-Inspired by [prof. S. R. SARANGI](http://www.cse.iitd.ernet.in/~srsarangi/col718_2016/index.html) class.
+_Inspired by [prof. S. R. SARANGI](http://www.cse.iitd.ernet.in/~srsarangi/col718_2016/index.html) class._
 
 The folder traces contains five traces of branch instructions against which your predictor is to be tested. The given framework does all that for you.
 
