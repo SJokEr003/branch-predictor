@@ -9,7 +9,7 @@ _Inspired by [prof. S. R. SARANGI](http://www.cse.iitd.ernet.in/~srsarangi/col71
 The folder traces contains five traces of branch instructions against which your predictor is to be tested. The given framework does all that for you.
 
 
-The files in folder traces/ contain the branch program addresses and the result(taken or not taken) for statndard banchmarks:
+The files in folder traces/ contain the branch program addresses and the result(taken or not taken) for some standard banchmarks:
 
 	4255370 0
 	4255447 0
