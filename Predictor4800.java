@@ -58,7 +58,6 @@ public class Predictor4800 extends Predictor {
 	}
 	
 	
-	
 	/////////////
 	private Table pap_share_pht, pap_share_ght;
 	private int pap_share_n ,pap_share_k,pap_share_n1 ,pap_share_satcs;
