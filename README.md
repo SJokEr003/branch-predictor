@@ -1,4 +1,8 @@
 # branch-predictors
+![Logo](https://cloud.githubusercontent.com/assets/5080310/13753244/2ef820d6-ea38-11e5-8a57-c3120cdef649.jpg)
+---------------
+
+
 ============================
 An attempt to implement and test some of the state of the art branch prediction techniques used in modern x86 processors.
 
@@ -43,10 +47,10 @@ The competition will proceed as follows. Contestants are responsible for impleme
 
 ## How to run
 
-- ant clean: to clean class files and jar files from previous builds. <br>
-- ant: to compile the java files.<br>
-- ant make-jar: to create a jar file (akin to an X86 executable). <br>
-- java -jar jar/BranchPredictor.jar traces/trace1 2400: <br>
+- **ant clean**: to clean class files and jar files from previous builds. <br>
+- **ant**: to compile the java files.<br>
+- **ant make-jar**: to create a jar file (akin to an X86 executable). <br>
+- **java -jar jar/BranchPredictor.jar traces/trace1 2400**: <br>
 
 this runs the simulator with the input trace trace1. It also tells the simulator that the maximum allowed predictor size is 2400 bits. More on this later.
 
@@ -66,9 +70,17 @@ If there are some issues with the repo, please feel free to push your changes.
 ## Predictors Used
 
 ----------------
-![image]()
+![image](https://cloud.githubusercontent.com/assets/5080310/13752457/c6f64236-ea34-11e5-8175-d0383d68ea31.png)
 ----------------
-![image](https://cloud.githubusercontent.com/assets/5080310/13220989/1814a5d2-d99f-11e5-8a70-5ad338fe5158.png)
+![image](https://cloud.githubusercontent.com/assets/5080310/13752458/c6f669b4-ea34-11e5-85f3-f6c7867790fd.png)
+----------------
+![image](https://cloud.githubusercontent.com/assets/5080310/13752460/c7393eba-ea34-11e5-8c72-8d5cad37a610.png)
+----------------
+![image](https://cloud.githubusercontent.com/assets/5080310/13752462/c760e6ea-ea34-11e5-8281-7ace1c64315c.png)
+----------------
+![image](https://cloud.githubusercontent.com/assets/5080310/13752459/c736ccca-ea34-11e5-8895-6ffad330bbf4.png)
+----------------
+![image](https://cloud.githubusercontent.com/assets/5080310/13752461/c75bab8a-ea34-11e5-884b-1b377ec384be.png)
 ----------------
 
 
