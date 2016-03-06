@@ -44,7 +44,7 @@ The competition will proceed as follows. Contestants are responsible for impleme
 ## How to run
 
 Quick method:
-- ./run.sh 
+- **./run.sh** 
 
 Later modify this accoring to your usage.<br>
 
