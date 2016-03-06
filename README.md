@@ -36,7 +36,6 @@ The files in folder traces/ contain the branch program addresses and the result(
 	4685306 0
 
 
-
 ## [Motivation](http://www.jilp.org/cbp2014/)
 The goal for this competition is to compare different branch prediction algorithms in a common framework. Predictors will be evaluated for conditional branches. Predictors must be implemented within a fixed storage budget as specified in the competition rules. The simple and transparent evaluation process enables dissemination of results and techniques to the larger computer architecture community and allows independent verification of results.
 
@@ -44,6 +43,12 @@ The competition will proceed as follows. Contestants are responsible for impleme
 
 ## How to run
 
+Quick method:
+- ./run.sh 
+
+Later modify this accoring to your usage.<br>
+
+Run Manually: 
 - **ant clean**: to clean class files and jar files from previous builds. <br>
 - **ant**: to compile the java files.<br>
 - **ant make-jar**: to create a jar file (akin to an X86 executable). <br>
