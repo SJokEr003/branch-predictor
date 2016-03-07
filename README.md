@@ -58,9 +58,13 @@ this runs the simulator with the input trace trace1. It also tells the simulator
 
 
 
-## Issues
-If there are some issues with the repo, please feel free to push your changes.
+## Contributing
 
+1. Fork it!
+2. Create your branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Added Some featues'``
+4. Push to the branch: 	`git push origin my-new-feature`
+5. Submit a pull request :)
 
 
 ## Credits
