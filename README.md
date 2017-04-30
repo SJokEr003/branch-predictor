@@ -41,6 +41,8 @@ The goal for this competition is to compare different branch prediction algorith
 
 The competition will proceed as follows. Contestants are responsible for implementing and evaluating their algorithm in the distributed framework. Submissions will be compiled and run with the original version of the framework. Quantitatively assessing the cost/complexity of predictors is difficult. To simplify the review process, maximize transparency, and minimize the role of subjectivity in selecting a champion, CBP-4 will make no attempt to assess the cost/complexity of predictor algorithms.  All predictors must be implemented within the constraints of the budget for the track of choice. Clear documentation, in the code as well as the paper writeup, must be provided to assure that this is the case. Predictors will be scored on Mispredictions  per thousand instructions (MPKI) only. The arithmetic mean of MPKIs of all 40 traces will be used as the final score of a predictor.
 
+A bad or no branch prediction is can be terrible for performance([see](http://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array)). So branch prediction can not be always ignored.  
+
 ## How to run
 
 Quick method:
